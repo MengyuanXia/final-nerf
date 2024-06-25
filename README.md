@@ -24,7 +24,7 @@ pip install -r requirements.txt
   - ...
 </details>
 
-
+---
 ## Usage
 
 ### Data
@@ -44,7 +44,7 @@ Dataset structure:
 ```
 python run_nerf.py --config configs/{DATASET}.txt
 ```
-Example:Train a low-res `lego` NeRF:
+To train a low-res `lego` NeRF:
 ```
 python run_nerf.py --config configs/lego.txt
 ```
